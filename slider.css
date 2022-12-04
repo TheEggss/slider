@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: #141417;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.slider {
+    /*background-color: #282831;*/
+    width: 50vw;
+    height: 50vh;
+    border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+i {
+    position: relative;
+    top: 47%;
+    font-size: 32px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.fa-caret-left {
+    left: 2%;
+}
+
+.fa-caret-right {
+    left: 94%;
+}
+
+i:hover {
+    color: rgb(65, 101, 219);
+}
